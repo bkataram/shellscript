@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "HELLO_WORLD"
+echo "HELLO WORLD"
+echo "First script"
