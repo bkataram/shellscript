@@ -1,4 +1,4 @@
 #!/bin/bash
-MOVIES =("RRR" "PUS" "DEV")
+MOVIES=("RRR" "PUS" "DEV")
 
-echo $MOVIES[0]
+echo "$MOVIES[0]"
