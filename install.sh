@@ -4,3 +4,4 @@ if [ $USERID -ne 0 ]
 then
  echo "ERROR yo dont have sudo access"
  fi
+ dnf install mysql -y
