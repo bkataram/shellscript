@@ -5,6 +5,9 @@ then
   echo "ERROR yo dont have sudo access"
   exit 1
  fi
+ dnf list  intalled mysql
+ if [ $? ne -0 ]
+ then
 dnf install mysql -y
  if  [ $? -ne 0 ]
   then
@@ -12,6 +15,9 @@ dnf install mysql -y
   exit 1
  else
   echo "INSTALLING  MY SQL SUCESS .."
+ fi
+ else 
+ echo "MYSQL is already "
  fi
  
  dnf install git -y
@@ -23,3 +29,4 @@ dnf install mysql -y
  else
   echo "INSTALLING  GIT SUCESS .."
  fi
+
