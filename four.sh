@@ -1,4 +1,5 @@
-PEN1=$1
+
+#!/bin/bashPEN1=$1
 PEN2=$2
 echo "$PEN1:Hi $PEN2"
 echo "$PEN2:H r u"
